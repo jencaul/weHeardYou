@@ -5,7 +5,7 @@ var labelType, useGradients, nativeTextSupport, animate;
       iStuff = ua.match(/iPhone/i) || ua.match(/iPad/i),
       typeOfCanvas = typeof HTMLCanvasElement,
       nativeCanvasSupport = (typeOfCanvas == 'object' || typeOfCanvas == 'function'),
-      textSupport = nativeCanvasSupport 
+      textSupport = nativeCanvasSupport
         && (typeof document.createElement('canvas').getContext('2d').fillText == 'function');
   //I'm setting this based on the fact that ExCanvas provides text support for IE
   //and that as of today iPhone/iPad current text support is lame
@@ -18,7 +18,7 @@ var labelType, useGradients, nativeTextSupport, animate;
 var Log = {
   elem: false,
   write: function(text){
-    if (!this.elem) 
+    if (!this.elem)
       this.elem = document.getElementById('log');
     this.elem.innerHTML = text;
     this.elem.style.left = (500 - this.elem.offsetWidth / 2) + 'px';
@@ -69,7 +69,7 @@ function init(){
 			                                "$dim": 4,
 			                                "$color": "#f78686"
 			                               	}
-			                         	
+
 			                          	}
 			                      ]//close red level 2.1.1
 			               		},{
@@ -107,10 +107,10 @@ function init(){
 			               		             }
 			               		         }
 			               		 ]//close red level 2.2.1
-			               		}     
+			               		}
 			            ]//close red level 2.1
-		            
-		            
+
+
 		            },{
 		            "id": "orange1",
 		            "name": "<div class='allNodes topNode'>IT</div>",
@@ -186,8 +186,8 @@ function init(){
 		             			]//close orange level 2.2.1
 		             			}
 		             ]//close orange level 2.1
-		            	         
-		            	         
+
+
 		     		},{
 		     		"id": "green1",
 		     		"name": "<div class='allNodes topNode'>HR & Performance Management</div>",
@@ -208,7 +208,7 @@ function init(){
 		     			         "children": [
 		     			         		   		{
 		     			         		        "id": "green2.1.1",
-		     			         		        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>- 10/12/2016: Performance Reviews Schedule.</b> Derek Passarelli released the performance management schedule. The Office of Personnel Management offers <a target=\"_blank\" href=\"https://www.opm.gov/policy-data-oversight/performance-management/performance-management-cycle/rating/supervisors-checklist-for-preparing-for-employee-performance-reviews/\">a supervisor checklist</a> for preparing for employee performance reviews that is helpful to both supervisors and employees. Also, DOE has issued <a target=\"_blank\" href=\"http://energy.gov/hc/downloads/supervisory-non-supervisory-employee-performance-management-and-recognition-program\">a performance management desk reference</a> with specific guidance on the performance review process. As you prepare for your performance review meetings this month, please consider the helpful information in these documents.</p></div>",
+		     			         		        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>-	11/14/2016:</b> Employee Performance Town Hall. Four people attended in person, with an additional 16 people calling in. </p><p><b>- 10/12/2016: Performance Reviews Schedule.</b> Derek Passarelli released the performance management schedule. The Office of Personnel Management offers <a target=\"_blank\" href=\"https://www.opm.gov/policy-data-oversight/performance-management/performance-management-cycle/rating/supervisors-checklist-for-preparing-for-employee-performance-reviews/\">a supervisor checklist</a> for preparing for employee performance reviews that is helpful to both supervisors and employees. Also, DOE has issued <a target=\"_blank\" href=\"http://energy.gov/hc/downloads/supervisory-non-supervisory-employee-performance-management-and-recognition-program\">a performance management desk reference</a> with specific guidance on the performance review process. As you prepare for your performance review meetings this month, please consider the helpful information in these documents.</p></div>",
 		     			         		        "data": {
 		     			         		            "$area": 4,
 		     			         		            "$dim": 4,
@@ -247,7 +247,7 @@ function init(){
 		     			         		                "$color": "#7fb68c"
 		     			         		                }
 		     			         		           }
-		     			         		              	
+
 		     			          ]//close green level 2.1.1
 		     			        },{
 		     			         "id": "green2.2",
@@ -288,9 +288,9 @@ function init(){
 		     			           	           	}
 		     			           	         }
 		     			           ]//close green level 2.2.2
-		     			             	
-		     			          }	
-		     	    ]//close green level 2.1 
+
+		     			          }
+		     	    ]//close green level 2.1
 		     		},{
 		     		"id": "lightGreen1",
 		     		"name": "<div class='allNodes topNode'>Leadership & Training</div>",
@@ -325,7 +325,7 @@ function init(){
 		     		  	        	  	             "$dim": 4,
 		     		  	        	  	             "$color": "#bdd6aa"
 		     		  	        	  	            }
-		     		  	        	  	          }       
+		     		  	        	  	          }
 		     		  	         ]//close lightGreen level 2.1.1
 		     		  	         },{
 		     		  	            "id": "lightGreen2.2",
@@ -338,14 +338,23 @@ function init(){
 		     		  	            "children": [
 		     		  	               	  	   		{
 		     		  	               	  	        "id": "lightGreen2.2.1",
-		     		  	               	  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q4 2016:</h3><p>EERE's Information Technology Services Offices continues to offer software training opportunities. All previous and currently offered training courses are now available for Online Training registration. Once registered, courses are available 24/7 for trainees to move through at their own pace and access at their own convenience. Courses currently available: <ul><li>Adobe Acrobat XI Pro: The Core Essentials</li><li>Excel 2013: The Core Essentials</li><li>Excel 2013: Pivot Tables and Charts</li><li>OneNote 2013: The Core Essentials</li><li>Outlook 2013: The Core Essentials</li><li>PowerPoint 2013: Pivot Tables and Charts</li><li>Project 2013: The Core Essentials</li><li>Publisher 2013: The Core Essentials</li><li>Visio 2013: The Core Essentials</li><li>Word 2013: The Core Essential</li></ul></p></div>",
+		     		  	               	  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>-	10/31/2016:</b> EERE’s Information Technology Services Office (ITSO) continues to offer in-house training for Microsoft Office and other programs, both in-person and by webinar. All courses can also be registered for online, 24/7 on-demand training. Training courses are open to all EERE federal and contractor staff. For the training schedule, and to register, <a target=\"_blank\" href=\"https://eeredocman.ee.doe.gov/training/SitePages/Home.aspx\">click here</a>. Questions or comments may be submitted to <a href=\"mailto:lisa.weber@ee.doe.gov\">Lisa Weber</a>.</p></div>",
 		     		  	               	  	        "data": {
 		     		  	               	  	            "$area": 4,
 		     		  	               	  	            "$dim": 4,
 		     		  	               	  	            "$color": "#bdd6aa"
 		     		  	               	  	           	}
-		     		  	               	  	         }
-		     		  	            ]//close lightGreen level 2.2.1   	
+		     		  	               	  	         },
+                                             {
+   		     		  	               	  	        "id": "lightGreen2.2.2",
+   		     		  	               	  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q4 2016:</h3><p>EERE's Information Technology Services Offices continues to offer software training opportunities. All previous and currently offered training courses are now available for Online Training registration. Once registered, courses are available 24/7 for trainees to move through at their own pace and access at their own convenience. Courses currently available: <ul><li>Adobe Acrobat XI Pro: The Core Essentials</li><li>Excel 2013: The Core Essentials</li><li>Excel 2013: Pivot Tables and Charts</li><li>OneNote 2013: The Core Essentials</li><li>Outlook 2013: The Core Essentials</li><li>PowerPoint 2013: Pivot Tables and Charts</li><li>Project 2013: The Core Essentials</li><li>Publisher 2013: The Core Essentials</li><li>Visio 2013: The Core Essentials</li><li>Word 2013: The Core Essential</li></ul></p></div>",
+   		     		  	               	  	        "data": {
+   		     		  	               	  	            "$area": 4,
+   		     		  	               	  	            "$dim": 4,
+   		     		  	               	  	            "$color": "#bdd6aa"
+   		     		  	               	  	           	}
+   		     		  	               	  	         }
+		     		  	            ]//close lightGreen level 2.2.1
 		     		  	         },{
 		     		  	             "id": "lightGreen2.3",
 		     		  	             "name": "<div class='allNodes'><a class=\"whiteLink\" target=\"_blank\" href=\"http://eere-intranet2.ee.doe.gov/WMO/EERETrainingResources\">Leadership & Training: EERE Training Resources</a></div>",
@@ -401,7 +410,7 @@ function init(){
 		     			  	               	  	            "$dim": 4,
 		     			  	               	  	            "$color": "#888fc4"
 		     			  	               	  	           	}
-		     			  	               	  	         }         
+		     			  	               	  	         }
 		     			  	             ]//close darkblue level 2.1.1
 		     			  	          },{
 		     			  	             "id": "darkblue2.2",
@@ -428,7 +437,7 @@ function init(){
 		     			  	                   	  	             "$dim": 4,
 		     			  	                   	  	             "$color": "#888fc4"
 		     			  	                   	  	            	}
-		     			  	                   	  	          }        
+		     			  	                   	  	          }
 		     			  	            ]//close darkblue level 2.2.1
 		     			  	          },{
 		     			  	             "id": "darkblue2.3",
@@ -455,11 +464,11 @@ function init(){
 		     			  	          	  	            "$dim": 4,
 		     			  	          	  	            "$color": "#888fc4"
 		     			  	          	  	           	}
-		     			  	          	  	         }          
-		     			  	          	 ]//close darkblue level 2.3.1               
+		     			  	          	  	         }
+		     			  	          	 ]//close darkblue level 2.3.1
 		     			  	          }
 		     			  ]//close darkblue level 2.1
-		     			
+
 		     		},{
 		     		"id": "lightblue1",
 		     		"name": "<div class='allNodes topNode'>Golden Community Council</div>",
@@ -510,17 +519,26 @@ function init(){
 		     				  	        "children": [
 		     				  	        			  	   		{
 		     				  	        			  	        "id": "purple2.1.1",
-		     				  	        			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2016:</h3><p><b>- 3/29/2016: Operations Team meeting.</b> Tim Meeks led an Operations Team meeting that focused on the status of follow-up actions from the FEVS facilitated meetings, as well as plans for activities to address the concerns and issues raise. </p></div>",
+		     				  	        			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>11/17/2016:</b> EERE All Hands meeting, including discussions on the transition. GFO staff sent questions in advance of the meeting, and EERE senior managers prepared responses. These were not covered during the meeting, but can be found <a taret=\"_blank\" href=\"http://eere-intranet2.ee.doe.gov/sites/default/files/documents/20161117%20All%20Hands%20QAs.pdf\">here</a>. Derrick Ramos, Chief of Staff to EERE Assistant Secretary David Friedman, visited Golden for this All Hands meeting.<p></div>",
 		     				  	        			  	        "data": {
 		     				  	        			  	            "$area": 4,
 		     				  	        			  	            "$dim": 4,
 		     				  	        			  	            "$color": "#ae7fc8"
 		     				  	        			  	           	}
-		     				  	        			  	        }
+		     				  	        			  	        },
+                                              {
+  		     				  	        			  	        "id": "purple2.1.2",
+  		     				  	        			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2016:</h3><p><b>- 3/29/2016: Operations Team meeting.</b> Tim Meeks led an Operations Team meeting that focused on the status of follow-up actions from the FEVS facilitated meetings, as well as plans for activities to address the concerns and issues raise. </p></div>",
+  		     				  	        			  	        "data": {
+  		     				  	        			  	            "$area": 4,
+  		     				  	        			  	            "$dim": 4,
+  		     				  	        			  	            "$color": "#ae7fc8"
+  		     				  	        			  	           	}
+  		     				  	        			  	        }
 		     				  	        			 ]//close purple level 2.1.1
 		     				  	        },{
 		     				  	        "id": "purple2.2",
-		     				  	        "name": "<div class='allNodes'>Great Place to Work: Intranet/ Communications</div>",
+		     				  	        "name": "<div class='allNodes'>Great Place to Work: Intranet/Communications</div>",
 		     				  	        "data": {
 		     				  	            "$area": 4,
 		     				  	            "$dim": 4,
@@ -529,7 +547,7 @@ function init(){
 		     				  	        "children": [
 		     				  	           			  	   		{
 		     				  	           			  	        "id": "purple2.2.1",
-		     				  	           			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b> - 10/10/2016: Update.</b> Launched <a target=\"http://eere-intranet2.ee.doe.gov/Golden/home\" href=\"http://eere-intranet2.ee.doe.gov/Golden/home\">updated Intranet</a>.</p></div>",
+		     				  	           			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>-	11/10/2016:</b> Announced the launch of the new We Heard You dashboard</p><p><b>-	11/8/2016:</b> Derek Passarelli distributed 2017 FEVS results to GFO Staff</p><p><b> - 10/10/2016: Update.</b> Launched <a target=\"http://eere-intranet2.ee.doe.gov/Golden/home\" href=\"http://eere-intranet2.ee.doe.gov/Golden/home\">updated Intranet</a>.</p></div>",
 		     				  	           			  	        "data": {
 		     				  	           			  	            "$area": 4,
 		     				  	           			  	            "$dim": 4,
@@ -556,16 +574,25 @@ function init(){
 		     				  	        "children": [
 		     				  	              			  	   		{
 		     				  	              			  	        "id": "purple2.3.1",
-		     				  	              			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2016:</h3><p>- <a targe=\"_blank\" href=\"mailto:gosuggestions@ee.doe.gov\">Suggestion box. A new Great Place to Work email address was set up as an online suggestion box.</a></p><b>- Bring back the lunchroom.</b> The first floor intern cubicle area was refurbished to include lunch tables for staff to use in 2016.<p><b>- Teleworking at GFO.</b> A short-term Telework Committee was formed to provide recommendations on GFO's telework approach for all GFO staff. These recommendations were submitted on July 15, 2016. The recommendations documents will be reviewed by the senior leadership team and will be posted on the EERE intranet.</p><p><b>- ADA Compliance.</b> Evacuation chairs were added to the stairwells on the DOE wing of the Research Support Facility. Braille was installed on doors in the DOE wing as well.</p><p></p><p><b>- Texts for IT problems.</b> DOE staff now receive text message updates on their DOE phones when IT systems are malfunctioning. </p></div>",
+		     				  	              			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>-	10/13/2016:</b> It was suggested that GFO create a dedicated, Skype-enabled room for employment interviews with candidates located outside of Colorado. Senior Managers reviewed this suggestion and agreed to move forward. During implementation, it was determined that every Voice-Over-Internet (VOIP) phone already had a WebEx account, so WebEx is the software being used for remote interviews, rather than Skype.</p></div>",
 		     				  	              			  	        "data": {
 		     				  	              			  	            "$area": 4,
 		     				  	              			  	            "$dim": 4,
 		     				  	              			  	            "$color": "#ae7fc8"
 		     				  	              			  	           	}
-		     				  	              			  	        }  
-		     				  	                    ]//close purple level 2.3.1 	
+		     				  	              			  	        },
+                                                    {
+  		     				  	              			  	        "id": "purple2.3.2",
+  		     				  	              			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2016:</h3><p>- <a targe=\"_blank\" href=\"mailto:gosuggestions@ee.doe.gov\">Suggestion box. A new Great Place to Work email address was set up as an online suggestion box.</a></p><b>- Bring back the lunchroom.</b> The first floor intern cubicle area was refurbished to include lunch tables for staff to use in 2016.<p><b>- Teleworking at GFO.</b> A short-term Telework Committee was formed to provide recommendations on GFO's telework approach for all GFO staff. These recommendations were submitted on July 15, 2016. The recommendations documents will be reviewed by the senior leadership team and will be posted on the EERE intranet.</p><p><b>- ADA Compliance.</b> Evacuation chairs were added to the stairwells on the DOE wing of the Research Support Facility. Braille was installed on doors in the DOE wing as well.</p><p></p><p><b>- Texts for IT problems.</b> DOE staff now receive text message updates on their DOE phones when IT systems are malfunctioning. </p></div>",
+  		     				  	              			  	        "data": {
+  		     				  	              			  	            "$area": 4,
+  		     				  	              			  	            "$dim": 4,
+  		     				  	              			  	            "$color": "#ae7fc8"
+  		     				  	              			  	           	}
+  		     				  	              			  	        }
+		     				  	                    ]//close purple level 2.3.1
 		     				  	        }
-		     				  	     
+
 		     				  	 ]//close purple level 2.1
 		     		},{
 		     		"id": "pink1",
@@ -606,7 +633,7 @@ function init(){
 					  	        "children": [
 					  	              			  	   		{
 					  	              			  	        "id": "pink2.2.1",
-					  	              			  	        "name": "<div class='allNodes blackText'><h3>FY 2017 Q1:</h3><p><b>- 10/11/2016: All Hand meeting and Employee Appreciation.</b> Employee All Hands meeting and Appreciation event at Holiday Bowling & Billiards.</p></div>",
+					  	              			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>-	11/15/2016:</b> Energy Innovators Speaker Series with Bryan Hannegan, NREL-ESI Associate Director, “The Challenge and Promise of Energy Systems Integration”</p><p><b>-	11/11/2016:</b> Derek Passarelli announced the winner of the huddle room decorating contest, “Please join me in congratulating the Procurement Policy and Compliance Office for the spooktacular job they did decorating Huddle Room C201! As the winners of this esteemed contest, the staff of PPCO have our undead respect.”</p><p><b>-	11/10/2016:</b> Derek Passarelli Veterans’ Day email thanking Veterans and their families for their service to our country</p><p><b>-	11/1/2016:</b> Ninth annual Chili Cookoff/Brownie Bakeoff held. </p><p><b>-	10/31/2016:</b> Annual Halloween parade and huddle room decorating contest </p><p><b>- 10/11/2016: All Hand meeting and Employee Appreciation.</b> Employee All Hands meeting and Appreciation event at Holiday Bowling & Billiards.</p></div>",
 					  	              			  	        "data": {
 					  	              			  	            "$area": 4,
 					  	              			  	            "$dim": 4,
@@ -646,7 +673,7 @@ function init(){
 					  	              			  	           	}
 					  	              			  	        }
 					  	              		]//close pink level 2.2.1
-					  	        }  
+					  	        }
 					 ]//close pink level 2.1
 		     		}
 		  	 ]//close level 1
@@ -730,19 +757,19 @@ function init(){
       domElement.innerHTML = node.name;
       var style = domElement.style;
       style.fontSize = '0.9em';
-      
+
       style.cursor = 'pointer';
-		
+
 		if (node.id=="node0"){
-			
+
       style.color = '#000';
 			}else{
-	  style.color = '#fff';		
+	  style.color = '#fff';
 			}
-      
+
 	  style.display = 'none';
 		style.overflow = 'hidden';
-		
+
     },
     // Change some label dom properties.
     // This method is called each time a label is plotted.
@@ -774,7 +801,7 @@ function controls() {
   jit.util.addEvent(gotoparent, 'click', function() {
     icicle.out();
   });
-    
+
   var select = jit.id('s-orientation');
   jit.util.addEvent(select, 'change', function () {
     icicle.layout.orientation = select[select.selectedIndex].value; //"h" or "v"
@@ -782,11 +809,11 @@ function controls() {
   });
 
     //var levelsToShowSelect = jit.id('i-levels-to-show');
-	
+
   /*jit.util.addEvent(levelsToShowSelect, 'change', function () {
-	 
+
      var index = 2; //levelsToShowSelect.selectedIndex; //numeric index
-	  
+
     if(index == 0) {
       icicle.config.constrained = false;
     } else {
@@ -795,7 +822,7 @@ function controls() {
     }
     icicle.refresh();
   });*/
-	
+
 }
 
 //end
@@ -809,7 +836,7 @@ $( window ).resize(function() {
 	/*
 	$( window ).ready(function() {
 	wa = window.innerWidth;
-	
+
 	});
 	var w = window.innerWidth;
 	console.log(w);
@@ -830,9 +857,9 @@ $( window ).resize(function() {
 		}
 		//$(test).css( "width", current+a );
 	}
-	
+
 	//init();
 	//$("#infovis-canvas").not(':first').remove();
-	
+
 	*/
 });
