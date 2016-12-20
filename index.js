@@ -158,8 +158,17 @@ function init(){
 		             			    "$color": "#ee9a55"
 		             			   	},
 		             			"children": [
+                            {
+                              "id": "orange2.2.1",
+                              "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>- 12/7/16:</b> Posted an alert on GO i2 about a required RSF data center power outage and site shutdown tentatively scheduled for 1/14-15/2017, to replace the entire set of UPS cabinets in the RSF to prevent a data center outage. Major systems impacted include NREL’s emergency phone system, Oracle, Email, Junos Pulse, Workday, Sharepoint, theSOURCE, and ESIF notification systems and user support.</p></div>",
+                              "data": {
+                                  "$area": 4,
+                                  "$dim": 4,
+                                  "$color": "#f3b786"
+                                  }
+                               },
 		             				   		{
-		             				        "id": "orange2.2.1",
+		             				        "id": "orange2.2.2",
 		             				        "name": "<div class='allNodes blackText'><h3>Fiscal Q4 2016:</h3><p><b>- 9/1/2016: ITSO Training email sent.</b> EERE's Information Technology Services Offices continues to offer in-house training for Microsoft Office and other programs, both in-person and by webinar. Classes are open to all EERE federal and contractor staff. Starting September 1, 2016, all previous and currently offered training courses will be available for Online Training registration. These online training courses, once registered for, will be available 24/7 for trainees to move through at their own pace and access at their earliest convenience. An email showing the current listing of online courses and how to register for them will be coming out in the next few days.</p><p><b>- 8/31/2016: Outlook search issues:</b>The search functionality in Microsoft Outlook 2013 is yielding incomplete or inconsistent results. EITS is working to resolve the issue.</p><p><b>- 8/30/2016: Outlook search feature issues.</b>GFO IT has been receiving a growing number of tickets in the last week from  GFO users. GFO IT recommended that users who are having issues with the “Search Sent Items” feature in Outlook or the “More” button results, submit a ticket to EITS through DAYS: Select “Get Help” and then “Something Broken” to report the issue. GFO IT also asked EITS for a status update on resolving this issue, and whether there would be communications from EITS on the issue. </p></div>",
 		             				        "data": {
 		             				            "$area": 4,
@@ -167,7 +176,7 @@ function init(){
 		             				            "$color": "#f3b786"
 		             				            }
 		             				         },{
-		             				          "id": "orange2.2.2",
+		             				          "id": "orange2.2.3",
 		             				          "name": "<div class='allNodes blackText'><h3>Fiscal Q3 2016:</h3><p><b>- 7/28/2016: Ongoing \"no sound\" issue email.</b> Issue that first came up in December 2015 and EITS has been working on since April. Email cites concerns that issue has not been resolved, recognizes recent improvements in the process, and highlights need for staying diligent in resolving issues.</p><p><b>- 7/25/2016: Efforts to resolve Microsoft 365 issues.</b>We are averaging about 10 tickets per day unless there is an upgrade or outage. Still working on trying to decrease the flare ups but we are at least seeing a faster turnaround time on issue resolution.</p><p><b>- 6/13/2016: New printers online email.</b>Notice and instructions on selecting new default printers sent to GFO users.</p><p><b>- 4/28/2016: GO IT email notification.</b> IT has been made aware of a suspicious email going around from “Irwin Fritz” with an @calfrac.com address. This does not appear to be a legitimate email and is being investigated by the “ Mail Abuse” team at EITS. Please do not open this or click on any links, simply delete the email. </p></div>",
 		             				          "data": {
 		             				              "$area": 4,
@@ -175,7 +184,7 @@ function init(){
 		             				              "$color": "#f3b786"
 		             				              }
 		             				          },{
-		             				           "id": "orange2.2.3",
+		             				           "id": "orange2.2.4",
 		             				           "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2016:</h3><p><b>- 3/30/2016: Golden IT status and Office 365 migration email.</b> Communication on the current IT status regarding migration of the GFO to Microsoft Office 365 and the latest update on the non-responsive applications issue related to the Office 2013 upgrade.</p><p><b>- Action required/update from EITS.</b> Some customers are experiencing multiple credential prompts from Office 365. EITS provided two options to try to resolve the issue, and when to escalate up to EITS.</p><p><b>- 3/2/2016:</b> Text Wire mobile phone notification is now available for IT service disruptions. Thanks to an excellent employee suggestion, we will be using Text Wire for general Golden IT disruptions. If you want to be informed of general disruptions to our IT system or office openings or delays or closures, federal and contractor staff may sign up to receive notifications from GO Text Wire on your mobile phone by completing the <a target=\"_blank\" href=\"http://eere-intranet2.ee.doe.gov/golden/adverseweather\">text wire documentation</a> and returning it to the GRO Security Team in Room C-244.</p><p><b>- 1/4/2016: Welcome to the New Year! IT improvement request.</b> Derek Passarelli sent out an email detailing how he had reached out to HQ IT to improve the level of IT services at Golden. They assigned a dedicated team to work on Golden IT issues in coordination with local Golden IT staff, and Derek plans on meeting with them weekly until there is significant improvement in the stability of Golden IT Network.</p></div>",
 		             				           "data": {
 		             				               "$area": 4,
@@ -487,8 +496,17 @@ function init(){
 		     			  	            "$color": "#6589ff"
 		     			  	           	},
 		     			  	        "children": [
+                                      {
+                                        "id": "lightblue2.1.1",
+                                        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017</h3><p><b>-	11/2/16:</b> More than 13 groups were present at the GCC sponsored Employee Resource Fair, to provide information on programs such as the Employee Assistance Program, EEO/DI, retirement, and much more. </p></div>",
+                                        "data": {
+                                            "$area": 4,
+                                            "$dim": 4,
+                                            "$color": "#91abff"
+                                            }
+                                         },
 		     			  	        		  	   		{
-		     			  	        		  	        "id": "lightblue2.1.1",
+		     			  	        		  	        "id": "lightblue2.1.2",
 		     			  	        		  	        "name": "<div class='allNodes blackText'><p>The Golden Community Council is an employee-directed organization committed to strengthening the DOE community at the GFO. We sponsor events throughout the year such as potlucks, coffee breaks, Rockies games, and brown bag lunch presentations as well as longer-term initiatives like ‘Golden Fitness Month’ to bring the GFO community together outside our normal work routine. These events are important because they give employees a chance to interact and form deeper, stronger relationships. People begin to put faces to names on emails, and interact more on a personal level. Over time we build a stronger sense of community.</p></div>",
 		     			  	        		  	        "data": {
 		     			  	        		  	            "$area": 4,
@@ -519,7 +537,7 @@ function init(){
 		     				  	        "children": [
 		     				  	        			  	   		{
 		     				  	        			  	        "id": "purple2.1.1",
-		     				  	        			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>11/17/2016:</b> EERE All Hands meeting, including discussions on the transition. GFO staff sent questions in advance of the meeting, and EERE senior managers prepared responses. These were not covered during the meeting, but can be found <a taret=\"_blank\" href=\"http://eere-intranet2.ee.doe.gov/sites/default/files/documents/20161117%20All%20Hands%20QAs.pdf\">here</a>. Derrick Ramos, Chief of Staff to EERE Assistant Secretary David Friedman, visited Golden for this All Hands meeting.<p></div>",
+		     				  	        			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>-	12/14/16:</b> EERE recognized 4 GO employees during the EERE Awards Ceremony:  Joycelyn Brown Saracino, WETO, won a Mission award for managing two complex FOAs for the marine/ hydrokinetics and wind energy industries; Carrie Noonan and Todd Allen, WMO, received People awards for their work in employee engagement including creation of the YouRock Award and FEVS; and Lori Gray, EOO, for her leadership and work on briefings with Secretary Moniz and Congressional staff. GO also hosted a cookie bar and hot cocoa station with all the fixings at the awards ceremony.</p><p><b>- 11/17/2016:</b> EERE All Hands meeting, including discussions on the transition. GFO staff sent questions in advance of the meeting, and EERE senior managers prepared responses. These were not covered during the meeting, but can be found <a taret=\"_blank\" href=\"http://eere-intranet2.ee.doe.gov/sites/default/files/documents/20161117%20All%20Hands%20QAs.pdf\">here</a>. Derrick Ramos, Chief of Staff to EERE Assistant Secretary David Friedman, visited Golden for this All Hands meeting.<p></div>",
 		     				  	        			  	        "data": {
 		     				  	        			  	            "$area": 4,
 		     				  	        			  	            "$dim": 4,
@@ -633,7 +651,7 @@ function init(){
 					  	        "children": [
 					  	              			  	   		{
 					  	              			  	        "id": "pink2.2.1",
-					  	              			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>-	11/15/2016:</b> Energy Innovators Speaker Series with Bryan Hannegan, NREL-ESI Associate Director, “The Challenge and Promise of Energy Systems Integration”</p><p><b>-	11/11/2016:</b> Derek Passarelli announced the winner of the huddle room decorating contest, “Please join me in congratulating the Procurement Policy and Compliance Office for the spooktacular job they did decorating Huddle Room C201! As the winners of this esteemed contest, the staff of PPCO have our undead respect.”</p><p><b>-	11/10/2016:</b> Derek Passarelli Veterans’ Day email thanking Veterans and their families for their service to our country</p><p><b>-	11/1/2016:</b> Ninth annual Chili Cookoff/Brownie Bakeoff held. </p><p><b>-	10/31/2016:</b> Annual Halloween parade and huddle room decorating contest </p><p><b>- 10/11/2016: All Hand meeting and Employee Appreciation.</b> Employee All Hands meeting and Appreciation event at Holiday Bowling & Billiards.</p></div>",
+					  	              			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>-	12/20/16:</b> GO hosted a Holiday event to celebrate employees and all of their work throughout the year. The event was held at the Rock Rest Lodge and included complimentary beverages, mammoth hot wings, and fun games. </p><p><b>-	12/20/16:</b> Published two articles in <i>The Insider</i> on EERE’s i2 page: Small business success story on Woodstone Energy; <i>“GO’s Commitment to Continuous Improvement”</i> about the November Lean event held in Washington D.C.</p><p><b>-	12/14/16:</b> Kristen Johnson, Technically Project Officer, presented a 30-minute Tech Talk on specific technology and achievements from the Bioenergy Technologies Office (BETO).</p><p><b>-	12/12/16:</b> Posted new GO calendar of events to the GO News page of i2. Users have the option to view events for Golden only, Golden and Headquarters, or Headquarters only. <a href=\"mailto:kamala.quintana@ee.doe.gov\">Kamala Quintana</a> is the owner and point of contact for calendar updates. </p><p><b>-	11/28/16:</b> Posted information and a call for volunteers for the 27th Annual Colorado High School Science Bowl, which takes place in February 2017.</p><p><b>-	11/15/2016:</b> Energy Innovators Speaker Series with Bryan Hannegan, NREL-ESI Associate Director, “The Challenge and Promise of Energy Systems Integration”</p><p><b>-	11/11/2016:</b> Derek Passarelli announced the winner of the huddle room decorating contest, “Please join me in congratulating the Procurement Policy and Compliance Office for the spooktacular job they did decorating Huddle Room C201! As the winners of this esteemed contest, the staff of PPCO have our undead respect.”</p><p><b>-	11/10/2016:</b> Derek Passarelli Veterans’ Day email thanking Veterans and their families for their service to our country</p><p><b>-	11/1/2016:</b> Ninth annual Chili Cookoff/Brownie Bakeoff held. </p><p><b>-	10/31/2016:</b> Annual Halloween parade and huddle room decorating contest </p><p><b>- 10/11/2016: All Hand meeting and Employee Appreciation.</b> Employee All Hands meeting and Appreciation event at Holiday Bowling & Billiards.</p></div>",
 					  	              			  	        "data": {
 					  	              			  	            "$area": 4,
 					  	              			  	            "$dim": 4,
