@@ -61,8 +61,18 @@ function init(){
 			                        "$color": "#f45655"
 			                    	},
 			                    "children": [
+                              {
+                                "id": "red2.1.1",
+                                "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2017:</h3><p><b>- 1/20/2017: Posted Telework Medical Certification form on i2</b></p></div>",
+                                "data": {
+                                    "$area": 4,
+                                    "$dim": 4,
+                                    "$color": "#f78686"
+                                    }
+
+                                },
 			                       		{
-			                            "id": "red2.1.1",
+			                            "id": "red2.1.2",
 			                            "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>- 10/20/2016: Telework Town Hall for Q&A with Derek Passarelli, GFO Director.</b> There were approximately 60 GFO employees in attendance with an additional 20 GFO team members participating by phone.</p><p><b>- 10/7/2016:Posted Telework Desk Guide and application form on <a target=\"_blank\" href=\"http://eere-intranet2.ee.doe.gov/Golden/Telework\">GFO intranet</a>.</b></p><p><b>- 10/6/2016: Released new telework approach.</b></p></div>",
 			                            "data": {
 			                                "$area": 4,
@@ -318,8 +328,16 @@ function init(){
 		     		  	            "$color": "#9ecb7e"
 		     		  	           	},
 		     		  	        "children": [
-		     		  	        	  	   		{
-		     		  	        	  	        "id": "lightGreen2.1.1",
+                          {
+                                     "id": "lightGreen2.1.1",
+                                     "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>- 12/20/2017: </b> Posted new workshops on i2 for Federal Employees Retirement System (FERS) training, Critical Thinking for Acquisition Professionals, and Civil Service Retirement System (CSRS) training to be held in February and March of 2017. Another FERS class will be scheduled due to high demand—dates to be determined.</p></div>",
+                                     "data": {
+                                         "$area": 4,
+                                         "$dim": 4,
+                                         "$color": "#bdd6aa"
+                                         }
+                                      },{
+		     		  	        	  	        "id": "lightGreen2.1.2",
 		     		  	        	  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q4 2016:</h3><p><b>- 9/20/2016: Derek Passarelli email announcing updated training calendar for Golden.</b> The schedule includes classes for supervisors. Please note that the Inter-Organizational Collaboration training has been rescheduled from October to December. The class schedule for all employees can be found on i2 under EERE Training Opportunities - Golden Field Office (http://eere-intranet2.ee.doe.gov/WMO/EERETrainingOpportunities).</p><p><b>- 7/13/2016: Telework working group meeting (employees)</b></p><p><b>- 7/11/2016: Telework working group meeting (employees)</b></p><p><b>- 7/7/2016: Telework working group meeting (employees)</b></p></div>",
 		     		  	        	  	        "data": {
 		     		  	        	  	            "$area": 4,
@@ -327,7 +345,7 @@ function init(){
 		     		  	        	  	            "$color": "#bdd6aa"
 		     		  	        	  	           	}
 		     		  	        	  	         },{
-		     		  	        	  	         "id": "lightGreen2.1.2",
+		     		  	        	  	         "id": "lightGreen2.1.3",
 		     		  	        	  	         "name": "<div class='allNodes blackText'><h3>Fiscal Q3 2016:</h3><p><b>- 5/17/2016: Training Opportunity for GS-9 through GS-12.</b> As part of our continuing effort to promote and enhance the development of our employees, the GFO will be sponsoring applicants through a competitive process to participate in the Colorado Leadership Foundations Program. This 6-month long program recognizes the importance of developing emerging leaders early in their careers. It is designed for Federal GS-9 to GS-12 level professionals.</p></div>",
 		     		  	        	  	         "data": {
 		     		  	        	  	             "$area": 4,
@@ -496,8 +514,17 @@ function init(){
 		     			  	            "$color": "#6589ff"
 		     			  	           	},
 		     			  	        "children": [
+                                     {
+                                     "id": "lightblue2.1.1",
+                                     "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2017</h3><p><b>-	1/25/17: </b> Tech Talks presented Karma Sawyer, Program Manager for BTO’s Emerging Technologies group, who discussed 29 R&D projects that resulted in commercial products.</p><p><b>-	1/19/17: </b> GCC hosted an impromptu morning snack, from 10-11am in the lunch room behind the reception desk with coffee, fresh fruit, pastries and juice.</p><p><b>- 2/1/17:</b> To support career advancement, GCC is hosting Resume Workshops on February 1 and February 2 from noon until 1 p.m. This is the first in a series of workshops designed to educate and empower staff on topics pertaining to career development. The workshops will provide helpful information on how to develop an excellent resume. Best-practices for both federal resumes and private-sector resumes will be addressed, with examples shared.</p> </div>",
+                                     "data": {
+                                         "$area": 4,
+                                         "$dim": 4,
+                                         "$color": "#91abff"
+                                         }
+                                      },
                                       {
-                                        "id": "lightblue2.1.1",
+                                        "id": "lightblue2.1.2",
                                         "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017</h3><p><b>-	11/2/16:</b> More than 13 groups were present at the GCC sponsored Employee Resource Fair, to provide information on programs such as the Employee Assistance Program, EEO/DI, retirement, and much more. </p></div>",
                                         "data": {
                                             "$area": 4,
@@ -506,7 +533,7 @@ function init(){
                                             }
                                          },
 		     			  	        		  	   		{
-		     			  	        		  	        "id": "lightblue2.1.2",
+		     			  	        		  	        "id": "lightblue2.1.3",
 		     			  	        		  	        "name": "<div class='allNodes blackText'><p>The Golden Community Council is an employee-directed organization committed to strengthening the DOE community at the GFO. We sponsor events throughout the year such as potlucks, coffee breaks, Rockies games, and brown bag lunch presentations as well as longer-term initiatives like ‘Golden Fitness Month’ to bring the GFO community together outside our normal work routine. These events are important because they give employees a chance to interact and form deeper, stronger relationships. People begin to put faces to names on emails, and interact more on a personal level. Over time we build a stronger sense of community.</p></div>",
 		     			  	        		  	        "data": {
 		     			  	        		  	            "$area": 4,
@@ -535,8 +562,17 @@ function init(){
 		     				  	            "$color": "#8e4cb2"
 		     				  	           	},
 		     				  	        "children": [
+                                         {
+                                           "id": "purple2.1.1",
+                                           "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2017:</h3><p><b>-	1/1/17: </b> DOE CAST by Dr. Ernest Moniz and Dr. Elizabeth Sherwood-Randall to discuss progress made during the last administration and to thank EERE staff for their hard work.</p><p><b>-	1/11/17:</b> During the final All Hands of the current administration: those who are leaving were recognized; more in-depth information on what the leadership team will look like and what to expect during the transition period was provided; and what to expect as the new administration team comes on board. This year's Great Place to Work 2.0 efforts, and the path forward were also discussed. </p></div>",
+                                           "data": {
+                                               "$area": 4,
+                                               "$dim": 4,
+                                               "$color": "#ae7fc8"
+                                               }
+                                           },
 		     				  	        			  	   		{
-		     				  	        			  	        "id": "purple2.1.1",
+		     				  	        			  	        "id": "purple2.1.2",
 		     				  	        			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>-	12/14/16:</b> EERE recognized 4 GO employees during the EERE Awards Ceremony:  Joycelyn Brown Saracino, WETO, won a Mission award for managing two complex FOAs for the marine/ hydrokinetics and wind energy industries; Carrie Noonan and Todd Allen, WMO, received People awards for their work in employee engagement including creation of the YouRock Award and FEVS; and Lori Gray, EOO, for her leadership and work on briefings with Secretary Moniz and Congressional staff. GO also hosted a cookie bar and hot cocoa station with all the fixings at the awards ceremony.</p><p><b>- 11/17/2016:</b> EERE All Hands meeting, including discussions on the transition. GFO staff sent questions in advance of the meeting, and EERE senior managers prepared responses. These were not covered during the meeting, but can be found <a taret=\"_blank\" href=\"http://eere-intranet2.ee.doe.gov/sites/default/files/documents/20161117%20All%20Hands%20QAs.pdf\">here</a>. Derrick Ramos, Chief of Staff to EERE Assistant Secretary David Friedman, visited Golden for this All Hands meeting.<p></div>",
 		     				  	        			  	        "data": {
 		     				  	        			  	            "$area": 4,
@@ -545,7 +581,7 @@ function init(){
 		     				  	        			  	           	}
 		     				  	        			  	        },
                                               {
-  		     				  	        			  	        "id": "purple2.1.2",
+  		     				  	        			  	        "id": "purple2.1.3",
   		     				  	        			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2016:</h3><p><b>- 3/29/2016: Operations Team meeting.</b> Tim Meeks led an Operations Team meeting that focused on the status of follow-up actions from the FEVS facilitated meetings, as well as plans for activities to address the concerns and issues raise. </p></div>",
   		     				  	        			  	        "data": {
   		     				  	        			  	            "$area": 4,
@@ -563,8 +599,16 @@ function init(){
 		     				  	            "$color": "#8e4cb2"
 		     				  	           	},
 		     				  	        "children": [
-		     				  	           			  	   		{
-		     				  	           			  	        "id": "purple2.2.1",
+                                             {
+                                               "id": "purple2.2.1",
+                                               "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2017:</h3><p><b>-	1/26/17:</b> Diversity and Inclusion provided Reasonable Accommodations training for supervisors.</p><p><b>-	1/24/17: </b> Posted article on the Employee Assistance Program (EAP) on GO News to remind employees of EAP counseling services during stressful times.</p><p><b>-	1/11/17: </b> Kamala Quintana published a new <a href=\"http://eere-intranet2.ee.doe.gov/sites/default/files/documents/Employee Handbook Final 12-20-16.pdf\">Employee Handbook</a> and posted it on i2. The handbook is for Federal employees and contractors and is a comprehensive guide on working at GO. It combines the New Employee Handbook, the Federal Employee Handbook, the Contractor Handbook, and the ATAAPS/Time & Attendance Guide into one document that will hopefully answer many questions GFO employees and contractors have. </p></div>",
+                                               "data": {
+                                                   "$area": 4,
+                                                   "$dim": 4,
+                                                   "$color": "#ae7fc8"
+                                                   }
+                                               },{
+		     				  	           			  	        "id": "purple2.2.2",
 		     				  	           			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>-	11/10/2016:</b> Announced the launch of the new We Heard You dashboard</p><p><b>-	11/8/2016:</b> Derek Passarelli distributed 2017 FEVS results to GFO Staff</p><p><b> - 10/10/2016: Update.</b> Launched <a target=\"http://eere-intranet2.ee.doe.gov/Golden/home\" href=\"http://eere-intranet2.ee.doe.gov/Golden/home\">updated Intranet</a>.</p></div>",
 		     				  	           			  	        "data": {
 		     				  	           			  	            "$area": 4,
@@ -572,7 +616,7 @@ function init(){
 		     				  	           			  	            "$color": "#ae7fc8"
 		     				  	           			  	           	}
 		     				  	           			  	        },{
-		     				  	           			  	        "id": "purple2.2.2",
+		     				  	           			  	        "id": "purple2.2.3",
 		     				  	           			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q3 2016:</h3><p><b>- 5/2/2016: Coffee hour.</b> Invitation to staff to join Dr. Danielson for a GFO coffee hour on May 5.</p></div>",
 		     				  	           			  	        "data": {
 		     				  	           			  	            "$area": 4,
@@ -649,8 +693,17 @@ function init(){
 					  	            "$color": "#dc4cbe"
 					  	           	},
 					  	        "children": [
+                                          {
+                                           "id": "pink2.2.1",
+                                           "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2017:</h3><p><b>- 2/11/17: </b> DOE volunteers managed various duties at the Colorado High School Science Bowl, at Dakota Ridge High School in Littleton, CO.</p><p><b>-	2/1/17: </b> Volunteer training for the 27th Annual Colorado High School Science Bowl was held in the RSF.</p><p><b>-	1/25/17: </b> Held a kick-off event for Energize Your Summer! This is a summer camp for students ages 5 through 12 that focuses on Science, Technology, Engineering, Art, and Math (STEAM). Camps run Monday, June 5 through Friday, August 4, 2017, with sessions held near the NREL Campus. Participants can choose from full-day or half-day camps. For more information, contact <a href=\"mailto:mary.jeffreys@ee.doe.gov\">Mary Jeffreys.</a></p><p><b>-	1/20/17:</b> Provided employees with live streaming of President Donald J. Trump’s inauguration.</p><p><b>-	1/19/17: </b> Provided employees with live streaming of the Nomination Hearing for the Honorable Rick Perry for Energy Secretary.</p><p><b>-	1/12/17:</b> Posted results of Combined Federal Campaign (CFC) on GO News. The 2016 CFC closed on December 31, 2016. GO employees contributed $48,588 with 68 individuals (32%) participating this year. GO surpassed all sectors and the Rocky Mountain Region's participation significantly, an achievement worthy of celebration. Thank you all!</p></div>",
+                                           "data": {
+                                              "$area": 4,
+                                              "$dim": 4,
+                                              "$color": "#e67fd0"
+                                              }
+                                            },
 					  	              			  	   		{
-					  	              			  	        "id": "pink2.2.1",
+					  	              			  	        "id": "pink2.2.2",
 					  	              			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>-	12/20/16:</b> GO hosted a Holiday event to celebrate employees and all of their work throughout the year. The event was held at the Rock Rest Lodge and included complimentary beverages, mammoth hot wings, and fun games. </p><p><b>-	12/20/16:</b> Published two articles in <i>The Insider</i> on EERE’s i2 page: Small business success story on Woodstone Energy; <i>“GO’s Commitment to Continuous Improvement”</i> about the November Lean event held in Washington D.C.</p><p><b>-	12/14/16:</b> Kristen Johnson, Technically Project Officer, presented a 30-minute Tech Talk on specific technology and achievements from the Bioenergy Technologies Office (BETO).</p><p><b>-	12/12/16:</b> Posted new GO calendar of events to the GO News page of i2. Users have the option to view events for Golden only, Golden and Headquarters, or Headquarters only. <a href=\"mailto:kamala.quintana@ee.doe.gov\">Kamala Quintana</a> is the owner and point of contact for calendar updates. </p><p><b>-	11/28/16:</b> Posted information and a call for volunteers for the 27th Annual Colorado High School Science Bowl, which takes place in February 2017.</p><p><b>-	11/15/2016:</b> Energy Innovators Speaker Series with Bryan Hannegan, NREL-ESI Associate Director, “The Challenge and Promise of Energy Systems Integration”</p><p><b>-	11/11/2016:</b> Derek Passarelli announced the winner of the huddle room decorating contest, “Please join me in congratulating the Procurement Policy and Compliance Office for the spooktacular job they did decorating Huddle Room C201! As the winners of this esteemed contest, the staff of PPCO have our undead respect.”</p><p><b>-	11/10/2016:</b> Derek Passarelli Veterans’ Day email thanking Veterans and their families for their service to our country</p><p><b>-	11/1/2016:</b> Ninth annual Chili Cookoff/Brownie Bakeoff held. </p><p><b>-	10/31/2016:</b> Annual Halloween parade and huddle room decorating contest </p><p><b>- 10/11/2016: All Hand meeting and Employee Appreciation.</b> Employee All Hands meeting and Appreciation event at Holiday Bowling & Billiards.</p></div>",
 					  	              			  	        "data": {
 					  	              			  	            "$area": 4,
@@ -658,7 +711,7 @@ function init(){
 					  	              			  	            "$color": "#e67fd0"
 					  	              			  	           	}
 					  	              			  	        },{
-					  	              			  	        "id": "pink2.2.2",
+					  	              			  	        "id": "pink2.2.3",
 					  	              			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q4 2016:</h3><p><b>- 9/6/2016: Tech Talk.</b> Posted article on i2 about Tech Talk #2 - Wind and Water Soars with Offshore Wind.</p></div>",
 					  	              			  	        "data": {
 					  	              			  	            "$area": 4,
@@ -666,7 +719,7 @@ function init(){
 					  	              			  	            "$color": "#e67fd0"
 					  	              			  	           	}
 					  	              			  	        },{
-					  	              			  	        "id": "pink2.2.3",
+					  	              			  	        "id": "pink2.2.4",
 					  	              			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q3 2016</h3><p><b>- 5/17/2016: Reminder.</b> In support of the Golden Community Council-sponsored '80s-themed 5K Run/Walk tomorrow, we have designated tomorrow '80s Day in the office. Feel free to wear any '80s-themed office-appropriate attire tomorrow. </p><p><b>- 5/4/2016: Thank you email sent by Derek Passerelli.</b> Derek sent out a communication thanking staff for helping to organize and attending Governor Hickenlooper’s visit and talk at the National Renewable Energy Laboratory (NREL) facility. The email thanked staff for coming together to bring thoughtful speakers to the Golden Field Office (GFO) to better understand our mission and the role we play in bringing a clean energy economy to the United States; he solicited input on additional speaker suggestions.</p></div>",
 					  	              			  	        "data": {
 					  	              			  	            "$area": 4,
@@ -674,7 +727,7 @@ function init(){
 					  	              			  	            "$color": "#e67fd0"
 					  	              			  	           	}
 					  	              			  	        },{
-					  	              			  	        "id": "pink2.2.4",
+					  	              			  	        "id": "pink2.2.5",
 					  	              			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2016:</h3><p><b>- 4/29/2016: Take Our Kids to Work (TOKWD) Day thank you.</b> Email sent by  Derek Passarelli. A special thank you to our dedicated team who make TOKWD a smashing success. The children were able to participate in activities that were not only educational, but fun.</p><p><b>- 3/11/2016: All Hands meeting.</b> Derek Passarelli invited staff to attend the Special All Hands meeting in the Energy Systems Integration Facility (ESIF) to hear Under Secretary Orr talk about DOE's top priorities this year, including the proposed EERE budget and its outlook, as well as the increased interest in the recently released Quadrennial Technology Review. </p></div>",
 					  	              			  	        "data": {
 					  	              			  	            "$area": 4,
@@ -682,7 +735,7 @@ function init(){
 					  	              			  	            "$color": "#e67fd0"
 					  	              			  	           	}
 					  	              			  	        },{
-					  	              			  	        "id": "pink2.2.5",
+					  	              			  	        "id": "pink2.2.6",
 					  	              			  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2016:</h3><p>The Feds Feed Families campaign is underway and the Office of Energy Efficiency and Rewnewable Energy (EERE) is in the midst of a food fight! Special collection boxes have been set up at the Energy Department's (DOE's) headquarters for the Transportation, Renewable Power, Energy Efficiency, and Operations and Strategic Programs offices. The winning office will be announced by Dr. David Danielson during the EERE Annual Cookout on October 1.</p><p>The Feds Feed Families campaign ends October 2 and the DOE goal is to collect more than 345,000 pounds of food. If every DOE employee collected or gave 26 pounds of food or non-perishable items it would raise 350,000 pounds of food. Since the campaign started in 2009, federal workers have donated and collected more than 39 million pounds of food and other non-perishable items to support families across the area.</p></div>",
 					  	              			  	        "data": {
 					  	              			  	            "$area": 4,
