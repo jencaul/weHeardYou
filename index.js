@@ -225,8 +225,17 @@ function init(){
 		     			            "$color": "#4c995e"
 		     			           	},
 		     			         "children": [
+                            {
+                              "id": "green2.1.1",
+                              "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2017:</h3><p><b>- 3/16/17: </b> Supervisors Employee COP met on mid-year reviews </p><p><b>- 3/14/17:</b> Employee Performance Town Hall ahead of mid-year reviews</p></div>",
+                              "data": {
+                                  "$area": 4,
+                                  "$dim": 4,
+                                  "$color": "#7fb68c"
+                                  }
+                                },
 		     			         		   		{
-		     			         		        "id": "green2.1.1",
+		     			         		        "id": "green2.1.2",
 		     			         		        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>-	11/14/2016:</b> Employee Performance Town Hall. Four people attended in person, with an additional 16 people calling in. </p><p><b>- 10/12/2016: Performance Reviews Schedule.</b> Derek Passarelli released the performance management schedule. The Office of Personnel Management offers <a target=\"_blank\" href=\"https://www.opm.gov/policy-data-oversight/performance-management/performance-management-cycle/rating/supervisors-checklist-for-preparing-for-employee-performance-reviews/\">a supervisor checklist</a> for preparing for employee performance reviews that is helpful to both supervisors and employees. Also, DOE has issued <a target=\"_blank\" href=\"http://energy.gov/hc/downloads/supervisory-non-supervisory-employee-performance-management-and-recognition-program\">a performance management desk reference</a> with specific guidance on the performance review process. As you prepare for your performance review meetings this month, please consider the helpful information in these documents.</p></div>",
 		     			         		        "data": {
 		     			         		            "$area": 4,
@@ -234,7 +243,7 @@ function init(){
 		     			         		            "$color": "#7fb68c"
 		     			         		           	}
 		     			         		        },{
-		     			         		          "id": "green2.1.2",
+		     			         		          "id": "green2.1.3",
 		     			         		          "name": "<div class='allNodes blackText'><h3>Fiscal Q4 2016:</h3><p><b>- 9/14/2016: All Hands coffee.</b> GFO hosted an All Hands coffee to introduce new DOE Ombudsman, William (Bill) Maurer. Mauer also attended the Senior Staff meeting.</p><p><b>- 9/29/2016: Tom Quinn</b>, Science & Energy Deputy Director for the HR Shared Service Center at DOE, and responsible for oversight of ORNL, visited DOE.</p><p><b>- 8/2016: EERE All Hands meeting.</b> Bob Dixon, EERE, came out for All Hands meeting and ice cream social.</p></div>",
 		     			         		          "data": {
 		     			         		              "$area": 4,
@@ -242,7 +251,7 @@ function init(){
 		     			         		              "$color": "#7fb68c"
 		     			         		             	}
 		     			         		          },{
-		     			         		            "id": "green2.1.3",
+		     			         		            "id": "green2.1.4",
 		     			         		            "name": "<div class='allNodes blackText'><h3>Fiscal Q3 2016:</h3><p><b>- June 2016: Performance Town Hall.</b> Derek Passarelli led a Performance Town Hall at GFO on June 13, 2016, with about 25 employees attending the meeting in person and more joining by phone. The meeting focused on the performance evaluation process, the ePerformance system, and questions or issues raised by the employees in attendance.</p></div>",
 		     			         		            "data": {
 		     			         		                "$area": 4,
@@ -250,7 +259,7 @@ function init(){
 		     			         		                "$color": "#7fb68c"
 		     			         		               	}
 		     			         		           }, {
-		     			         		            "id": "green2.1.4",
+		     			         		            "id": "green2.1.5",
 		     			         		            "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2016:</h3><p><b>- March 2016: ORNL visit.</b> GFO management visit to Oakridge National Laboratory (ORNL).</p><p><b>- January 2016:</b> Bob Gibbs, Chief Human Capital Officer at DOE, visited GFO.</p></div>",
 		     			         		            "data": {
 		     			         		                "$area": 4,
@@ -258,7 +267,7 @@ function init(){
 		     			         		                "$color": "#7fb68c"
 		     			         		                }
 		     			         		           },{
-		     			         		            "id": "green2.1.5",
+		     			         		            "id": "green2.1.6",
 		     			         		            "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2016:</h3><p><b>- December 2015:</b> Ken Dewert, Office of Special Counsel, came to GFO to discuss transition.</p></div>",
 		     			         		            "data": {
 		     			         		                "$area": 4,
@@ -363,8 +372,17 @@ function init(){
 		     		  	                "$color": "#9ecb7e"
 		     		  	               	},
 		     		  	            "children": [
+                                      {
+                                        "id": "lightGreen2.2.1",
+                                        "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2017:</h3><p><b>-	3/2/17: </b> Email from Lisa Weber to staff announcing EERE computer application training schedule for March</p><p><b>-	2/2/17:  </b> Email from Lisa Weber to staff announcing EERE computer application training schedule for February, which now includes the Annual Operating Plan (AOP) Tool:  Change Control training. This email also distributed ITSO’s survey.</p></div>",
+                                          "data": {
+                                              "$area": 4,
+                                              "$dim": 4,
+                                              "$color": "#bdd6aa"
+                                          }
+                                          },
 		     		  	               	  	   		{
-		     		  	               	  	        "id": "lightGreen2.2.1",
+		     		  	               	  	        "id": "lightGreen2.2.2",
 		     		  	               	  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q1 2017:</h3><p><b>-	10/31/2016:</b> EERE’s Information Technology Services Office (ITSO) continues to offer in-house training for Microsoft Office and other programs, both in-person and by webinar. All courses can also be registered for online, 24/7 on-demand training. Training courses are open to all EERE federal and contractor staff. For the training schedule, and to register, <a target=\"_blank\" href=\"https://eeredocman.ee.doe.gov/training/SitePages/Home.aspx\">click here</a>. Questions or comments may be submitted to <a href=\"mailto:lisa.weber@ee.doe.gov\">Lisa Weber</a>.</p></div>",
 		     		  	               	  	        "data": {
 		     		  	               	  	            "$area": 4,
@@ -373,7 +391,7 @@ function init(){
 		     		  	               	  	           	}
 		     		  	               	  	         },
                                              {
-   		     		  	               	  	        "id": "lightGreen2.2.2",
+   		     		  	               	  	        "id": "lightGreen2.2.3",
    		     		  	               	  	        "name": "<div class='allNodes blackText'><h3>Fiscal Q4 2016:</h3><p>EERE's Information Technology Services Offices continues to offer software training opportunities. All previous and currently offered training courses are now available for Online Training registration. Once registered, courses are available 24/7 for trainees to move through at their own pace and access at their own convenience. Courses currently available: <ul><li>Adobe Acrobat XI Pro: The Core Essentials</li><li>Excel 2013: The Core Essentials</li><li>Excel 2013: Pivot Tables and Charts</li><li>OneNote 2013: The Core Essentials</li><li>Outlook 2013: The Core Essentials</li><li>PowerPoint 2013: Pivot Tables and Charts</li><li>Project 2013: The Core Essentials</li><li>Publisher 2013: The Core Essentials</li><li>Visio 2013: The Core Essentials</li><li>Word 2013: The Core Essential</li></ul></p></div>",
    		     		  	               	  	        "data": {
    		     		  	               	  	            "$area": 4,
@@ -516,7 +534,7 @@ function init(){
 		     			  	        "children": [
                                      {
                                      "id": "lightblue2.1.1",
-                                     "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2017</h3><p><b>-	1/25/17: </b> Tech Talks presented Karma Sawyer, Program Manager for BTO’s Emerging Technologies group, who discussed 29 R&D projects that resulted in commercial products.</p><p><b>-	1/19/17: </b> GCC hosted an impromptu morning snack, from 10-11am in the lunch room behind the reception desk with coffee, fresh fruit, pastries and juice.</p><p><b>- 2/1/17:</b> To support career advancement, GCC is hosting Resume Workshops on February 1 and February 2 from noon until 1 p.m. This is the first in a series of workshops designed to educate and empower staff on topics pertaining to career development. The workshops will provide helpful information on how to develop an excellent resume. Best-practices for both federal resumes and private-sector resumes will be addressed, with examples shared.</p> </div>",
+                                     "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2017</h3><p><b>-	2/28/17: </b>GCC hosted the annual Mardi Gras potluck. </p><p><b>-	1/25/17: </b> Tech Talks presented Karma Sawyer, Program Manager for BTO’s Emerging Technologies group, who discussed 29 R&D projects that resulted in commercial products.</p><p><b>-	1/19/17: </b> GCC hosted an impromptu morning snack, from 10-11am in the lunch room behind the reception desk with coffee, fresh fruit, pastries and juice.</p><p><b>- 2/1/17:</b> To support career advancement, GCC is hosting Resume Workshops on February 1 and February 2 from noon until 1 p.m. This is the first in a series of workshops designed to educate and empower staff on topics pertaining to career development. The workshops will provide helpful information on how to develop an excellent resume. Best-practices for both federal resumes and private-sector resumes will be addressed, with examples shared.</p> </div>",
                                      "data": {
                                          "$area": 4,
                                          "$dim": 4,
@@ -564,7 +582,7 @@ function init(){
 		     				  	        "children": [
                                          {
                                            "id": "purple2.1.1",
-                                           "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2017:</h3><p><b>-	1/1/17: </b> DOE CAST by Dr. Ernest Moniz and Dr. Elizabeth Sherwood-Randall to discuss progress made during the last administration and to thank EERE staff for their hard work.</p><p><b>-	1/11/17:</b> During the final All Hands of the current administration: those who are leaving were recognized; more in-depth information on what the leadership team will look like and what to expect during the transition period was provided; and what to expect as the new administration team comes on board. This year's Great Place to Work 2.0 efforts, and the path forward were also discussed. </p></div>",
+                                           "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2017:</h3><p><b>-	2/27-3/1/17: </b>Steve Chalk, Tim Unruh, Charlie Gay, and Jose Zayas visited GO and NREL for a series of meetings connected to the transition to a new administration. These included brainstorming meetings at NREL, and Steve Chalk’s town hall meeting with GO staff (2/28).</p><p><b>-	2/23/17: </b>Talk to Chalk webinar provided updates on the transition. </p><p><b>-	1/1/17: </b> DOE CAST by Dr. Ernest Moniz and Dr. Elizabeth Sherwood-Randall to discuss progress made during the last administration and to thank EERE staff for their hard work.</p><p><b>-	1/11/17:</b> During the final All Hands of the current administration: those who are leaving were recognized; more in-depth information on what the leadership team will look like and what to expect during the transition period was provided; and what to expect as the new administration team comes on board. This year's Great Place to Work 2.0 efforts, and the path forward were also discussed. </p></div>",
                                            "data": {
                                                "$area": 4,
                                                "$dim": 4,
@@ -601,7 +619,7 @@ function init(){
 		     				  	        "children": [
                                              {
                                                "id": "purple2.2.1",
-                                               "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2017:</h3><p><b>-	1/26/17:</b> Diversity and Inclusion provided Reasonable Accommodations training for supervisors.</p><p><b>-	1/24/17: </b> Posted article on the Employee Assistance Program (EAP) on GO News to remind employees of EAP counseling services during stressful times.</p><p><b>-	1/11/17: </b> Kamala Quintana published a new <a href=\"http://eere-intranet2.ee.doe.gov/sites/default/files/documents/Employee Handbook Final 12-20-16.pdf\">Employee Handbook</a> and posted it on i2. The handbook is for Federal employees and contractors and is a comprehensive guide on working at GO. It combines the New Employee Handbook, the Federal Employee Handbook, the Contractor Handbook, and the ATAAPS/Time & Attendance Guide into one document that will hopefully answer many questions GFO employees and contractors have. </p></div>",
+                                               "name": "<div class='allNodes blackText'><h3>Fiscal Q2 2017:</h3><p><b>-	2/1-28/17: </b>GO’s Diversity and Inclusion (DI) office began posting monthly observances on i2 GO News. In February, National African American History Month, DI posted daily stories on the accomplishments of individual African Americans. </p><p><b>- 2/23/17: </b>DOE’s Office of Diversity hosted the webinar, “Heritage and Horizons: The African-American Legacy and the Energy Challenges of the 21st Century,” with keynote speaker Marc Morial, President and CEO, National Urban League.</p><p><b>-	1/26/17:</b> Diversity and Inclusion provided Reasonable Accommodations training for supervisors.</p><p><b>-	1/24/17: </b> Posted article on the Employee Assistance Program (EAP) on GO News to remind employees of EAP counseling services during stressful times.</p><p><b>-	1/11/17: </b> Kamala Quintana published a new <a href=\"http://eere-intranet2.ee.doe.gov/sites/default/files/documents/Employee Handbook Final 12-20-16.pdf\">Employee Handbook</a> and posted it on i2. The handbook is for Federal employees and contractors and is a comprehensive guide on working at GO. It combines the New Employee Handbook, the Federal Employee Handbook, the Contractor Handbook, and the ATAAPS/Time & Attendance Guide into one document that will hopefully answer many questions GFO employees and contractors have. </p></div>",
                                                "data": {
                                                    "$area": 4,
                                                    "$dim": 4,
